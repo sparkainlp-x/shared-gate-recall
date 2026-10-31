@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: shared-gate-recall
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Brisson
+    given-names: Jean-François
+    orcid: https://orcid.org/0009-0000-9778-5374
+    affiliation: Spark AI NLP, Fredericton, New Brunswick, Canada
+version: 0.1.0
+date-released: 2026-10-30
+license: AGPL-3.0-only
+repository-code: https://github.com/sparkainlp-x/shared-gate-recall
+abstract: >-
+  One canonical module for the Youden refusal gate and overlap
+  recall duplicated across the public sparkainlp-x repos: a
+  strategy-parameterised calibration (first | midpoint, keyword-only
+  with no default, one documented grid convention), a deterministic
+  bootstrap tau interval, and overlap recall over stored patterns
+  with a frozen gate. Explicitly not outer-product W-matrix storage.
+  Classical synthetic toy; no medical, quantum-hardware, brain, or
+  consciousness claim.
+keywords:
+  - refusal gate
+  - Youden's J
+  - overlap recall
+  - calibration
+  - synthetic toy
